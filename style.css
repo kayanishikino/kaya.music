@@ -162,7 +162,6 @@ p { margin: 3px 0 10px; font-size: 1rem; color:#382D2D; }
 
 .timeline span { display: inline-block; width: 3ch; text-align: center; }
 
-
 #volume{
   margin-top: 15px;
   margin-left: auto;
@@ -171,3 +170,4 @@ p { margin: 3px 0 10px; font-size: 1rem; color:#382D2D; }
   align-self: flex-end;
   display: block;
 }
+
