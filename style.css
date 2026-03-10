@@ -67,10 +67,11 @@ body {
 
 /* COVER IMAGE */
 .cover {
-  width: 30%;
+  width: 35%;
   min-width: 90px;
   border-radius: 15px;
   object-fit: cover;
+  margin-right: 5px;
 }
 
 /* INFO */
@@ -160,3 +161,13 @@ p { margin: 3px 0 10px; font-size: 1rem; color:#382D2D; }
 }
 
 .timeline span { display: inline-block; width: 3ch; text-align: center; }
+
+
+#volume{
+  margin-top: 15px;
+  margin-left: auto;
+  width:120px;
+  accent-color:#9F1130;
+  align-self: flex-end;
+  display: block;
+}
