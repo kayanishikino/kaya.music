@@ -29,15 +29,15 @@ const songs = [
   { title: "Don't say lazy", artist: "Kaya Nishikino", src: "songs/song (27).mp3", cover: "covers/cover1.png" },
   { title: "My Sweet Heart", artist: "Kaya Nishikino", src: "songs/song (28).mp3", cover: "covers/cover1.png" },
   { title: "PONPONPON", artist: "Kaya Nishikino", src: "songs/song (29).mp3", cover: "covers/cover1.png" },
-  { title: "Song 30", artist: "Kaya Nishikino", src: "songs/song (30).mp3", cover: "covers/cover1.png" },
-  { title: "Song 31", artist: "Kaya Nishikino", src: "songs/song (31).mp3", cover: "covers/cover1.png" },
-  { title: "Song 32", artist: "Kaya Nishikino", src: "songs/song (32).mp3", cover: "covers/cover1.png" },
-  { title: "Song 33", artist: "Kaya Nishikino", src: "songs/song (33).mp3", cover: "covers/cover1.png" },
-  { title: "Song 34", artist: "Kaya Nishikino", src: "songs/song (34).mp3", cover: "covers/cover1.png" },
-  { title: "Song 35", artist: "Kaya Nishikino", src: "songs/song (35).mp3", cover: "covers/cover1.png" },
-  { title: "Song 36", artist: "Kaya Nishikino", src: "songs/song (36).mp3", cover: "covers/cover1.png" },
-  { title: "Song 37", artist: "Kaya Nishikino", src: "songs/song (37).mp3", cover: "covers/cover1.png" },
-  { title: "Song 38", artist: "Kaya Nishikino", src: "songs/song (38).mp3", cover: "covers/cover1.png" },
+  { title: "Romeo and Cinderella", artist: "Kaya Nishikino", src: "songs/song (30).mp3", cover: "covers/cover1.png" },
+  { title: "Saga Jihen", artist: "Kaya Nishikino x Yae Yugiri", src: "songs/song (31).mp3", cover: "covers/cover1.png" },
+  { title: "Sakura Kiss", artist: "Kaya Nishikino", src: "songs/song (32).mp3", cover: "covers/cover1.png" },
+  { title: "Mayonaka no Door / Stay With Me", artist: "Kaya Nishikino", src: "songs/song (33).mp3", cover: "covers/cover1.png" },
+  { title: "SENBONZAKURA", artist: "Kaya Nishikino", src: "songs/song (34).mp3", cover: "covers/cover1.png" },
+  { title: "Bokura no LIVE Kimi to no LIFE", artist: "Kaya Nishikino", src: "songs/song (35).mp3", cover: "covers/cover1.png" },
+  { title: "Brave Heart", artist: "Kaya Nishikino", src: "songs/song (36).mp3", cover: "covers/cover1.png" },
+  { title: "Dokkin Mahou Tsukai Pretty Cure!", artist: "Kaya Nishikino", src: "songs/song (37).mp3", cover: "covers/cover1.png" },
+  { title: "Fiction", artist: "Kaya Nishikino", src: "songs/song (38).mp3", cover: "covers/cover1.png" },
   { title: "Song 39", artist: "Kaya Nishikino", src: "songs/song (39).mp3", cover: "covers/cover1.png" },
   { title: "Song 40", artist: "Kaya Nishikino", src: "songs/song (40).mp3", cover: "covers/cover1.png" },
   { title: "Song 41", artist: "Kaya Nishikino", src: "songs/song (41).mp3", cover: "covers/cover1.png" },
@@ -169,7 +169,7 @@ const songs = [
   { title: "Song 166", artist: "Kaya Nishikino", src: "songs/song (166).mp3", cover: "covers/cover1.png" },
   { title: "Song 167", artist: "Kaya Nishikino", src: "songs/song (167).mp3", cover: "covers/cover1.png" },
   { title: "Song 168", artist: "Kaya Nishikino", src: "songs/song (168).mp3", cover: "covers/cover1.png" },
-  { title: "Song 169", artist: "Kaya Nishikino", src: "songs/song (169).mp3", cover: "covers/cover1.png" },
+  { title: "Song 169", artist: "ArtistKaya Nishikino", src: "songs/song (169).mp3", cover: "covers/cover1.png" },
   { title: "Song 170", artist: "Kaya Nishikino", src: "songs/song (170).mp3", cover: "covers/cover1.png" },
   { title: "Song 171", artist: "Kaya Nishikino", src: "songs/song (171).mp3", cover: "covers/cover1.png" },
   { title: "Song 172", artist: "Kaya Nishikino", src: "songs/song (172).mp3", cover: "covers/cover1.png" },
@@ -213,12 +213,6 @@ const songs = [
   { title: "Song 210", artist: "Kaya Nishikino", src: "songs/song (210).mp3", cover: "covers/cover1.png" },
   { title: "Song 211", artist: "Kaya Nishikino", src: "songs/song (211).mp3", cover: "covers/cover1.png" },
   { title: "Song 212", artist: "Kaya Nishikino", src: "songs/song (212).mp3", cover: "covers/cover1.png" },
-  { title: "Song 207", artist: "Kaya Nishikino", src: "songs/song (207).mp3", cover: "covers/cover1.png" },
-  { title: "Song 208", artist: "Kaya Nishikino", src: "songs/song (208).mp3", cover: "covers/cover1.png" },
-  { title: "Song 209", artist: "Kaya Nishikino", src: "songs/song (209).mp3", cover: "covers/cover1.png" },
-  { title: "Song 210", artist: "Kaya Nishikino", src: "songs/song (210).mp3", cover: "covers/cover1.png" },
-  { title: "Song 211", artist: "Kaya Nishikino", src: "songs/song (211).mp3", cover: "covers/cover1.png" },
-  { title: "Song 212", artist: "Kaya Nishikino", src: "songs/song (212).mp3", cover: "covers/cover1.png" },
   { title: "Song 213", artist: "Kaya Nishikino", src: "songs/song (213).mp3", cover: "covers/cover1.png" }
   // add more songs here
 ];
@@ -238,6 +232,12 @@ const prevBtn = document.getElementById("prev");
 const shuffleBtn = document.getElementById("shuffle");
 const loopBtn = document.getElementById("loop");
 const songListEl = document.getElementById("songList");
+const volume = document.getElementById("volume");
+
+// VOLUME
+volume.addEventListener("input", () => {
+  audio.volume = volume.value;
+});
 
 // STATE
 let currentSong = 0;
@@ -408,4 +408,3 @@ function animate(){
   requestAnimationFrame(animate);
 }
 animate();
-
