@@ -1,0 +1,162 @@
+/* ---------- PARTICLE BACKGROUND ---------- */
+#bgCanvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* ---------- BODY ---------- */
+body {
+  margin: 50px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#FFD769,#FFFBD2);
+  font-family: "ads-piccolo", sans-serif;
+  overflow: hidden;
+}
+
+/* ---------- WRAPPER ---------- */
+.player-wrapper {
+  position: relative;
+  z-index: 1;
+  width: 90vw;
+  max-width: 550px;
+  aspect-ratio: 2 / 1;
+}
+
+/* ---------- DISC ---------- */
+.disc-bg {
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  width: 100%;
+  height: auto;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  opacity: 0.8;
+}
+
+.spin {
+  animation: spin 10s linear infinite;
+}
+
+@keyframes spin {
+  from { transform: translate(-50%, -50%) rotate(0deg); }
+  to { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+/* ---------- PLAYER ---------- */
+.player {
+  position: relative;
+  z-index: 2;
+  background: #FFFBF4;
+  padding: 40px;
+  border-radius: 20px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  box-shadow: 0 4px 15px #c56c0734;
+  flex-wrap: wrap;
+}
+
+/* COVER IMAGE */
+.cover {
+  width: 30%;
+  min-width: 90px;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+/* INFO */
+.info { flex: 1 1 60%; }
+h2 { margin: 3px 0; font-size: 1.2rem; padding-bottom: 10px; color:#382D2D; }
+p { margin: 3px 0 10px; font-size: 1rem; color:#382D2D; }
+
+/* TIMELINE & CONTROLS */
+.timeline { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+#progress { flex: 1; min-width: 100px; }
+.controls { margin-top: 10px; justify-content: space-between; display: flex; flex-wrap: wrap; gap: 10px; }
+.controls button { border: none; background: #d75a6b; color: white; width: 40px; height: 40px; border-radius: 10px; font-size: 16px; cursor: pointer; transition: transform 0.15s; }
+.controls button:hover { transform: scale(1.08); }
+#playPause { background: #b41e36; width: 40px; height: 40px; font-size: 20px; }
+
+/* SONG LIST */
+.song-list {
+  max-height: 200px;
+  overflow-y: auto;
+  margin-top: 15px;
+  padding: 20px;
+  background: #fff8e6;
+  border-radius: 15px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  width: 92.5%;
+}
+.song-list ul { list-style: none; padding: 0; margin: 0; }
+.song-list li {
+  padding: 10px 12px;
+  border-bottom: 1px solid #9F1130;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.song-list li:hover { background: #d6d6d6; }
+.song-list li.active { background: #9F1130; color: #FFFBF4; }
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+  .player { flex-direction: column; align-items: center; padding: 15px; border-radius: 15px;}
+  .cover { width: 40%; min-width: 70px; }
+  .info { width: 100%; text-align: center; }
+  .controls { justify-content: center; gap: 8px; }
+  #playPause { width: 40px; height: 40px; font-size: 18px; }
+}
+
+/* SLIDER */
+#progress {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 8px;
+  background: #382D2D;
+  border: 3px solid #382D2D;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+}
+#progress::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #FED76B;
+  box-shadow: 0 0 0 3px #382D2D;
+  cursor: pointer;
+  margin-top: 0px;
+}
+#progress::-moz-range-track { background: #382D2D; height: 6px; border-radius: 3px; }
+#progress::-moz-range-progress { background: #FED76B; height: 6px; border-radius: 3px; }
+#progress::-moz-range-thumb {
+  width: 14px; height: 14px; border-radius: 50%;
+  background: #FED76B; box-shadow: 0 0 0 3px #382D2D; cursor: pointer;
+}
+
+/* LOOP 1 INDICATOR */
+#loop { position: relative; }
+#loop i { position: relative; }
+#loop.repeat-one i::after {
+  content: "1";
+  position: absolute;
+  top: -7px;
+  right: -7px;
+  font-size: 0.6rem;
+  color: #FFFBF4;
+  font-weight: bold;
+  pointer-events: none;
+}
+
+.timeline span { display: inline-block; width: 3ch; text-align: center; }
