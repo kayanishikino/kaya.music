@@ -42,7 +42,7 @@ const songs = [
   { title: "NO, Thank You!", artist: "Kaya Nishikino", src: "songs/song (40).mp3", cover: "covers/cover1.png" },
   { title: "Shiroi Yuki no princess wa", artist: "Kaya Nishikino x Miuna Usako", src: "songs/song (41).mp3", cover: "covers/cover1.png" },
   { title: "I CAN'T STOP THE LONELINESS", artist: "Kaya Nishikino", src: "songs/song (42).mp3", cover: "covers/cover1.png" },
-  { title: "Song 43", artist: "Kaya Nishikino", src: "songs/song (43).mp3", cover: "covers/cover1.png" },
+  { title: "Tasogare No Bay City", artist: "Kaya Nishikino", src: "songs/song (43).mp3", cover: "covers/cover1.png" },
   { title: "Song 44", artist: "Kaya Nishikino", src: "songs/song (44).mp3", cover: "covers/cover1.png" },
   { title: "Song 45", artist: "Kaya Nishikino", src: "songs/song (45).mp3", cover: "covers/cover1.png" },
   { title: "Song 46", artist: "Kaya Nishikino", src: "songs/song (46).mp3", cover: "covers/cover1.png" },
