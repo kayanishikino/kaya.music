@@ -207,7 +207,13 @@ const songs = [
   { title: "Song 204", artist: "Kaya Nishikino", src: "songs/song (204).mp3", cover: "covers/cover1.png" },
   { title: "Song 205", artist: "Kaya Nishikino", src: "songs/song (205).mp3", cover: "covers/cover1.png" },
   { title: "Song 206", artist: "Kaya Nishikino", src: "songs/song (206).mp3", cover: "covers/cover1.png" },
-  { title: "Song 207", artist: "Kaya Nishikino", src: "songs/song (207).mp3", cover: "covers/cover1.png" }
+  { title: "Song 207", artist: "Kaya Nishikino", src: "songs/song (207).mp3", cover: "covers/cover1.png" },
+  { title: "Song 208", artist: "Kaya Nishikino", src: "songs/song (208).mp3", cover: "covers/cover1.png" },
+  { title: "Song 209", artist: "Kaya Nishikino", src: "songs/song (209).mp3", cover: "covers/cover1.png" },
+  { title: "Song 210", artist: "Kaya Nishikino", src: "songs/song (210).mp3", cover: "covers/cover1.png" },
+  { title: "Song 211", artist: "Kaya Nishikino", src: "songs/song (211).mp3", cover: "covers/cover1.png" },
+  { title: "Song 212", artist: "Kaya Nishikino", src: "songs/song (212).mp3", cover: "covers/cover1.png" },
+  { title: "Song 213", artist: "Kaya Nishikino", src: "songs/song (213).mp3", cover: "covers/cover1.png" }
   // add more songs here
 ];
 
